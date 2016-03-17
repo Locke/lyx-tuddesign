@@ -1,0 +1,39 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudthesis]{thesis (TU Darmstadt)}
+Format 35
+Input scrreprt.layout
+# Provides amsmath         1
+Provides latexsym       1
+Provides amssymb       1
+Provides makeidx         1
+
+TitleLatexName "makethesistitle"
+
+
+
+Style Group
+	CopyStyle             Author
+	LatexName             group
+End
+
+
+Style Department  
+	CopyStyle             Author
+	LatexName             department
+End
+
+Style Referee  
+	CopyStyle             Author
+	LatexName             referee
+	RequiredArgs          1
+	LatexParam            Mustermann
+End
+
+
+Style Thesistitle
+	CopyStyle             Title
+	LatexName             thesistitle
+	RequiredArgs          1
+End
+
+NoStyle Title

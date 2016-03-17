@@ -1,0 +1,23 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudreport]{report (TU Darmstadt)}
+Input scrreprt.layout
+# Provides amsmath         1
+Provides latexsym       1
+Provides amssymb       1
+Provides makeidx         1
+
+Style Subtitle
+	CopyStyle             Date
+	LatexName             subtitle
+End
+
+Style Subsubtitle
+	CopyStyle             Author
+	LatexName             subsubtitle
+End
+
+
+Style Institution
+	CopyStyle             Author
+	LatexName             institution
+End

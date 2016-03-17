@@ -1,0 +1,9 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudbeamer]{article (beamer, TU Darmstadt)}
+Input beamer.layout
+
+
+Preamble
+  % this default might be overridden by plain title style
+  \newcommand\makebeamertitle{\begin{titleframe}\end{titleframe}}%
+EndPreamble
