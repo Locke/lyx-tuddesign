@@ -3,7 +3,7 @@
 Input beamer.layout
 
 
-Preamble
+AddToPreamble
   % this default might be overridden by plain title style
-  \newcommand\makebeamertitle{\begin{titleframe}\end{titleframe}}%
+  \renewcommand\makebeamertitle{\begin{titleframe}\end{titleframe}}%
 EndPreamble
