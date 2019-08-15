@@ -1,5 +1,6 @@
 #% Do not delete the line below; configure depends on this
-#  \DeclareLaTeXClass[tudbeamer]{article (beamer, TU Darmstadt)}
+#  \DeclareLaTeXClass[tudbeamer]{TU Darmstadt Beamer}
+#  \DeclareCategory{Presentations}
 
 Format 66
 

@@ -1,5 +1,6 @@
 #% Do not delete the line below; configure depends on this
-#  \DeclareLaTeXClass[tudthesis]{thesis (TU Darmstadt)}
+#  \DeclareLaTeXClass[tudthesis]{TU Darmstadt Thesis}
+#  \DeclareCategory{Reports}
 
 Format 66
 
