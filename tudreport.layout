@@ -1,6 +1,8 @@
 #% Do not delete the line below; configure depends on this
 #  \DeclareLaTeXClass[tudreport]{TU Darmstadt Report}
 #  \DeclareCategory{Reports}
+# Original Author: unknown
+# Revised and extended by André Wolski <andre.wolski@stud.tu-darmstadt.de>.
 
 Format 66
 
