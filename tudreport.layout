@@ -1,6 +1,10 @@
 #% Do not delete the line below; configure depends on this
 #  \DeclareLaTeXClass[tudreport]{report (TU Darmstadt)}
+
+Format 66
+
 Input scrreprt.layout
+
 # Provides amsmath         1
 Provides latexsym       1
 Provides amssymb       1

@@ -1,7 +1,9 @@
 #% Do not delete the line below; configure depends on this
 #  \DeclareLaTeXClass[tudbeamer]{article (beamer, TU Darmstadt)}
-Input beamer.layout
 
+Format 66
+
+Input beamer.layout
 
 AddToPreamble
   % this default might be overridden by plain title style

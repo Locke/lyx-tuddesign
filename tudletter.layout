@@ -1,6 +1,10 @@
 #% Do not delete the line below; configure depends on this
 #  \DeclareLaTeXClass[tudletter]{letter (TU Darmstadt)}
+
+Format 66
+
 Input scrlttr2.layout
+
 # Provides amsmath         1
 Provides latexsym       1
 Provides amssymb       1
@@ -11,7 +15,7 @@ Style shortfromname
 	CopyStyle             Name
 	LatexName             setkomavar
 	LatexParam            {shortfromname}
-	LabelString           "Kurzer Absendername: "
+	LabelString           "Kurzer Absendername:"
 End
 
 Style frominstitution

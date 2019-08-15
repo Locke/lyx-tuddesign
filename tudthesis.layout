@@ -1,7 +1,10 @@
 #% Do not delete the line below; configure depends on this
 #  \DeclareLaTeXClass[tudthesis]{thesis (TU Darmstadt)}
-Format 35
+
+Format 66
+
 Input scrreprt.layout
+
 # Provides amsmath         1
 Provides latexsym       1
 Provides amssymb       1
@@ -25,15 +28,23 @@ End
 Style Referee  
 	CopyStyle             Author
 	LatexName             referee
-	RequiredArgs          1
 	LatexParam            Mustermann
+
+	Argument 1
+		LabelString	"Required Layout Argument 1"
+		Mandatory	1
+	EndArgument
 End
 
 
 Style Thesistitle
 	CopyStyle             Title
 	LatexName             thesistitle
-	RequiredArgs          1
+
+	Argument 1
+		LabelString	"Required Layout Argument 1"
+		Mandatory	1
+	EndArgument
 End
 
 NoStyle Title
