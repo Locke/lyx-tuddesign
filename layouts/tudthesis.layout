@@ -15,27 +15,31 @@ Provides makeidx         1
 
 TitleLatexName "makethesistitle"
 
-
-
 Style Group
 	CopyStyle             Author
 	LatexName             group
 End
 
 
-Style Department  
+Style Department
 	CopyStyle             Author
 	LatexName             department
 End
 
-Style Referee  
+Style Referee
 	CopyStyle             Author
 	LatexName             referee
-	LatexParam            Mustermann
+	LatexType             Command
+	LabelString "Betreuer: "
 
 	Argument 1
-		LabelString	"Required Layout Argument 1"
+		LabelString	"Erstprüfer"
 		Mandatory	1
+	EndArgument
+
+	Argument post:1
+		LabelString	"Drittprüfer"
+		Mandatory	0
 	EndArgument
 End
 
@@ -44,10 +48,26 @@ Style Thesistitle
 	CopyStyle             Title
 	LatexName             thesistitle
 
-	Argument 1
-		LabelString	"Required Layout Argument 1"
+	Argument post:1
+		LabelString	"Subtitle"
 		Mandatory	1
 	EndArgument
 End
 
 NoStyle Title
+
+Style TUPrints
+	CopyStyle             Author
+	LatexName             tuprints
+	LatexType             Command
+	LabelString "URN-ID:"
+
+	Argument post:1
+		LabelString	"tuprints-ID"
+		Mandatory	1
+	EndArgument
+
+	Font
+	  Size                Normal
+	EndFont
+End
